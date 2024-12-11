@@ -21,7 +21,7 @@ library(magrittr)
 library(ggplot2)
 library(plotly)
 ```
-
+שמות הכותבים: לינוי עזר, טום ברוור
 *מאגר הנתונים נלקח לשם התנסות מאתר Kaggle. 
 
 # פתיח
