@@ -3,7 +3,6 @@ title: "ניתוח נתוני סופר"
 output:
   html_document:
     css: styles.css
-  pdf_document: default
 date: "10-11-2024"
 ---
 
@@ -21,7 +20,9 @@ library(magrittr)
 library(ggplot2)
 library(plotly)
 ```
-שמות הכותבים: לינוי עזר, טום ברוור
+
+**שמות הכותבים:** לינוי עזר, טום ברוור.
+
 *מאגר הנתונים נלקח לשם התנסות מאתר Kaggle. 
 
 # פתיח
