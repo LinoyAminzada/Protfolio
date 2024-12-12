@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linoy Azar Aminzada | Landing page</title>
     <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        strong {
+            direction: ltr;
+            unicode-bidi: embed;
+        }
+    </style>
 </head>
 <body>
     <!-- Top navigation menu -->
     <nav>
         <div class="container">
-            <a href="#about">About Me</a>
-            <a href="#portfolio">My Works</a>
             <a href="#contact">Contact</a>
+            <a href="#portfolio">My Works</a>
+            <a href="#about">About Me</a>
         </div>
     </nav>    
 
@@ -52,10 +59,10 @@
     </div>
 </section>
 
-<!-- "My Work" Section -->
+<!-- "My Works" Section -->
 <section id="portfolio" class="portfolio">
     <div class="container">
-        <h3>My Work</h3>
+        <h3>My Works</h3>
         <ul>
             <li>
                 <strong>Data Analysis Project in R:</strong>
